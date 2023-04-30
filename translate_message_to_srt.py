@@ -32,7 +32,7 @@ if __name__ == "__main__":
     if args.save:
         save_path = f"{args.save}" 
 
-    if args.load:
+    if not args.load:
         load_path = "."
 
     model = load_model(model_size)
