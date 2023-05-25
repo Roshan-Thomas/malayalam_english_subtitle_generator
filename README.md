@@ -1,6 +1,18 @@
 # Malayalam to English Automatic Subtitle Generation
 
-## Setup (First Run)
+Tool to transcribe Malayalam audios into English and format it as a .srt file with the proper timings. It uses OpenAI's 'Whisper' model to translate from Malayalam to English. 
+
+I created these scripts as I need this tool to create subtitles for my church. I hope this tool can be useful to you as well for transcribing Malayalam audios to English. If you liked this please consider leaving a ⭐, and share it, so others can also find it helpful. 
+
+## Run in Colab
+
+The tool can be used either locally or on web hosted services such as Colab. I have written one for you which you can use to generate subtitles. 
+
+The colab file can be found [here](https://colab.research.google.com/drive/1EX6_h-3LcEfAEzCbHfqZieZC4-CKPHVV?usp=sharing)
+
+## Run Locally
+
+### Setup (First Run)
 
 1. Install OpenAI's Whisper on your local computer via Python's package manager `pip`.
     ```bash
@@ -30,7 +42,7 @@
     pip install setuptools-rust
     ```
 
-## Command-Line Usage
+### Command-Line Usage
 
 1. Clone the git repo to your system via command-line or by downloading the .zip file (at the top of this page).
     ```bash
@@ -51,7 +63,7 @@
     python translate_message_to_srt.py --audio "sample.wav"
     ```
 
-### Optional Commands
+## Optional Commands
 1. To specify a custom Whisper model, use the `-m` or `--model` argument
     ```bash
     python translate_message_to_srt.py -a "sample.wav" -m large
