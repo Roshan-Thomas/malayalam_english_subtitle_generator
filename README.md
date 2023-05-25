@@ -2,7 +2,7 @@
 
 Tool to transcribe Malayalam audios into English and format it as a .srt file with the proper timings. It uses OpenAI's 'Whisper' model to translate from Malayalam to English. 
 
-I created these scripts as I need this tool to create subtitles for my church. I hope this tool can be useful to you as well for transcribing Malayalam audios to English. If you liked this please consider leaving a ⭐, and share it, so others can also find it helpful. 
+I created this script as I need this tool to create subtitles for sermons at my church. I hope this tool can be useful to you as well for transcribing Malayalam audios to English. If you liked this please consider leaving a ⭐, and share it, so others can also find it helpful. 
 
 ## Run in Colab
 
